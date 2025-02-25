@@ -1,16 +1,19 @@
 # **WireGuard VPN on AWS EC2**
 
-A complete guide and implementation of a secure Virtual Private Network (VPN) using **WireGuard** on an **AWS EC2** instance. This project explores modern network security practices with a focus on high performance, ease of configuration, and robust encryption.  
-
+A complete guide and implementation of a secure Virtual Private Network (VPN) using WireGuard on an AWS EC2 instance. This project was part of our Data Communication and Networking course, where we were tasked with both writing a research paper and completing a practical project. The project explores modern network security practices with a focus on high performance, ease of configuration, and robust encryption.
 **[Read our full research paper here](./Paper/Security-at-Network-Layer-IPSec-and-VPNs.pdf)**
 
 ---
 
 ## **Overview of the Project**
 
+As part of our Data Communication and Networking course, we were tasked with two main objectives:
+1. Research Paper: Write a detailed paper comparing traditional and modern VPN protocols, focusing on IPSec and WireGuard.
+2. Practical Project: Implement a WireGuard VPN server on an AWS EC2 instance to demonstrate secure, encrypted communication over public networks.
+
 This project demonstrates how to deploy a WireGuard VPN server on an AWS EC2 instance. The VPN allows secure, encrypted connections over public networks, ensuring data privacy and protection from cyber threats.  
 
-It includes:  
+What the Project Includes:  
 - A server setup on AWS EC2 running **Ubuntu 20.04**  
 - End-to-end encrypted connections using **WireGuard**  
 - A thorough comparison between **IPSec** and **WireGuard** protocols  
