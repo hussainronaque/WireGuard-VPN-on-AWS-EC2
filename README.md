@@ -40,7 +40,15 @@ WireGuard is a next-generation VPN protocol designed to replace older protocols 
 
 ---
 
-## ⚙️ **How to Set Up**
+## **How to Set Up**
+
+### **Requirements**
+
+1. An account on a cloud platform that offers a virtual machine (e.g. AWS, Azure, Google Cloud, etc.).
+2. Ubuntu 20.04 Server Virtual Machine.
+3. A public IP address assigned to your VM.
+4. UDP port 51820 open to incoming traffic from all sources (0.0.0.0/0).
+5. The region chosen to raise the machine in this tutorial was South America (São Paulo, Brazil) (sa-east-1), but choose your preferred region.
 
 ### **Server Setup (AWS EC2)**
 
